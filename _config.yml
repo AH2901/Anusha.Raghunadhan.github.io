@@ -1,6 +1,8 @@
 # Site Settings
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "contrast" # High readability for technical content
+minimal_mistakes_skin: "dark"
+header:
+  sticky: true
 title: "Senior Software Engineer"
 description: "Architecting scalable .NET & React systems with a focus on M365 and DevOps."
 url: "https://yourusername.github.io"
