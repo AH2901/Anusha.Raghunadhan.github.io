@@ -1,36 +1,20 @@
-# Site Settings
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"
-header:
-  sticky: true
-title: "Senior Software Engineer"
-description: "Architecting scalable .NET & React systems with a focus on M365 and DevOps."
-url: "https://yourusername.github.io"
-baseurl: ""
+title: Anusha Raghunadhan
+description: Full-stack developer & designer
+url: "https://ah2901.github.io/Anusha.Raghunadhan.github.io/"
+baseurl: ""  # Leave empty for root domain (username.github.io)
 
-# Author Profile (Sidebar)
-author:
-  name   : "Anusha Raghunadhan"
-  avatar : "https://github.com/AH2901/Anusha.Raghunadhan.github.io/blob/main/1741646318523%20(1).jpg"
-  bio    : "9+ Years Experience | .NET & React Specialist"
-  location: "Vancouver, BC"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/AH2901"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/anusha-raghunadhan-b79bb8b7/"
+# Social links
+github_username:  AH2901
+linkedin_username: anusha-raghunadhan-b79bb8b7
+email: anusharaghunadhan@gmail.com
 
-# Defaults for Posts and Pages
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+# Build settings
+theme: minima  # You can remove this if using custom layout
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# For SPA-like navigation
+collections:
+  sections:
+    output: false
