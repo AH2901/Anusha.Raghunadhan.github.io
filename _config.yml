@@ -1,13 +1,1 @@
-name: "Anusha Raghunadhan"
-title: "Full Stack Developer"
-description: ".NET | React | Azure"
-github: "https://github.com/AH2901/"
-linkedin: "https://www.linkedin.com/in/anusha-raghunadhan-b79bb8b7/"
-skills:
-  - .NET
-  - React
-  - Azure
-projects:
-  - name: "Shopping Site"
-    description: "Awesome project"
-    link: "https://github.com/AH2901/ShoppingSite"
+remote_theme: mmistakes/minimal-mistakes
