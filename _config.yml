@@ -9,7 +9,7 @@ baseurl: ""
 # Author Profile (Sidebar)
 author:
   name   : "Anusha Raghunadhan"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "https://github.com/AH2901/Anusha.Raghunadhan.github.io/blob/main/1741646318523%20(1).jpg"
   bio    : "9+ Years Experience | .NET & React Specialist"
   location: "Vancouver, BC"
   links:
