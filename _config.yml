@@ -1,1 +1,34 @@
-remote_theme: mmistakes/minimal-mistakes
+# Site Settings
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "contrast" # High readability for technical content
+title: "Senior Software Engineer"
+description: "Architecting scalable .NET & React systems with a focus on M365 and DevOps."
+url: "https://yourusername.github.io"
+baseurl: ""
+
+# Author Profile (Sidebar)
+author:
+  name   : "Anusha Raghunadhan"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "9+ Years Experience | .NET & React Specialist"
+  location: "Vancouver, BC"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AH2901"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/anusha-raghunadhan-b79bb8b7/"
+
+# Defaults for Posts and Pages
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
